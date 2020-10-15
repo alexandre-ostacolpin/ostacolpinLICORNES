@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+/* body avec sont image en arrière plan  */
+body {
+    background: url(../img/background.png);
+    font-family: Arial, sans-serif;
+}
+
+/* nav menu  */
+nav {
+    background-color: #C55394;
+    height: 40px;
+    display: flex;
+    color: #fff;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+}
+/* Début de la page container */
+#container {
+    width: 1221px;
+    height: 1100px;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* Taille des images */
+img {
+    max-width: 90%;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+}
+
+h2 {
+    color: #C55394;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+h3 {
+    color: #EB43A3;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h4 {
+    color: #C55394;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 270px;
+}
+
+footer {
+    height: 40px;
+    background-color: #E577B5;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Mes colonnes */
+.col-1 {
+    width: 6.333333%;
+    margin: 1%;
+}
+.col-2 {
+    width: 14.6666%;
+    margin: 1%;
+}
+.col-3 {
+    width: 23%;
+    margin: 1%;
+}
+.col-4 {
+    width: 31.333333%;
+    margin: 1%;
+}
+.col-5 {
+    width: 39.6666666%;
+    margin: 1%;
+}
+.col-6 {
+    width: 48%;
+    margin: 1%;
+}
+.col-7 {
+    width: 56.333333%; 
+    margin: 1%;
+}
+.col-8 {
+    width: 64.666666%;
+    margin: 1%; 
+}
+.col-9 {
+    width: 73%;
+    margin: 1%;  
+}
+.col-10 {
+    width: 81.333333%;
+    margin: 1%;  
+}
+.col-11 {
+    width: 89.666666%;
+    margin: 1%;   
+}
+.col-12 {
+    width: 98%;
+    margin: 1%;   
+}
+
+/* les marges à gauche pour créer si on le veut des colonnes vides */
+.marge-1 {
+    margin-left: 8.333333%;
+}
+.marge-2 {
+    margin-left: 16.66666%;
+}
+.marge-3 {
+    margin-left: 25%;
+}
+.marge-4 {
+    margin-left: 33.333333%;
+}
+.marge-5 {
+    margin-left: 41.666666%;
+}
+.marge-6 {
+    margin-left: 50%;
+}
+.marge-7 {
+    margin-left: 58.333333%;
+}
+.marge-8 {
+    margin-left: 66.666666%;
+}
+.marge-9 {
+    margin-left: 75%;
+}
+.marge-10 {
+    margin-left: 83.333333%;
+}
+.marge-11 {
+    margin-left: 91.666666%;
+}
